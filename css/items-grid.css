@@ -25,7 +25,13 @@
     margin-top: 12px;
     color: var(--title-color)
 }
-.items-grid li:hover{
-    border: 2px solid #34cb79;
-    background-color: #e1faec;
+
+.items-grid span, img{
+    pointer-events: none;
 }
+
+.items-grid .selected{
+    border: 2px solid var(--primary-color);
+    background-color: #d3fddf;
+}
+
