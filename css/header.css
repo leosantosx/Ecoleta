@@ -1,0 +1,19 @@
+
+.page-home header{
+    margin-top: 48px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.page-home header a{
+    display: flex;
+    font-weight: 700;
+    color: var(--title-color)
+}
+.page-home header a span{
+    margin-right: 16px;
+    background-image: url(../icones/log-in.svg);
+    width: 20px;
+    height: 20px;
+}
