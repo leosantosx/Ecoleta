@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="" type="image/x-icon">
+    {% block title %}
+        <title>Ecoleta</title>
+    {% endblock title %}
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./css/reset.css">
+        <link rel="stylesheet" href="./css/base.css">
+        <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet" href="./css/header.css">
+        <link rel="stylesheet" href="./css/responsive.css">
+        {% block styles %}{% endblock styles %}
+
+    </head>
+    <body>
+        <div class="{{ pageId }}">
+            {% block content %}{% endblock content %}
+        </div>
+        {% block scripts %}{% endblock scripts %}
+
+    </body>
+</html>

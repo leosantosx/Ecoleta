@@ -1,56 +1,35 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="" type="image/x-icon">
-    <title>Ecoleta</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/base.css">
-    <link rel="stylesheet" href="./css/header.css">
-    <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/modal.css">
-    <link rel="stylesheet" href="./css/responsive.css">
-</head>
-<body>
-    <div class="page-home">
+{% extends "layout.html" %}
+{% set pageId = "page-home" %}
+
+{% block styles %}
+        <link rel="stylesheet" href="./css/modal.css">
+{% endblock styles %}
+
+    {% block content %}
         <div class="content">
+
             <header>
                 <img src="./icones/logo.svg" alt="Logo da ecoleta">
-                <a href="./create-point">
+                <a href="/create-point">
                     <span></span>
                     Cadastre um ponto de coleta
                 </a>
             </header>
-    
-            
+
             <main class="page-main">
                 <h1>Seu marketplace de coleta de resíduos</h1>
                 <p>Ajudamos pessoas a encontrarem pontos de coleta de forma eficiente</p>
-                <a class="search-point"><span></span><strong>Pesquisar pontos de coleta</strong></a>
+                <a class="search-point">
+                    <span></span>
+                    <strong>Pesquisar pontos de coleta</strong>
+                </a>
             </main>
-        </div>
-    </div>
 
-    <div id="modal" class="hide">
-        <div class="content">
-            <div class="header">
-                <h1>Pontos de coleta</h1>
-                <a href="#" class="close">Fechar</a>
-            </div>
-            <form action="./search-results" class="search-city">
-                <label for="search">Cidade</label>
-                <div class="search field">
-                    <input type="text" name="search" placeholder="Pesquise por cidade">
-                    <button>
-                        <img src="./icones/search.svg" alt="Buscar">
-                    </button>
-                </div>
-            </form>
         </div>
-    </div>
 
-    <script src="js/index.js"></script>
-</body>
-</html>
+        {% include "partials/modal.html" %}
+    {% endblock content %}
+
+    {% block scripts %}
+        <script src="js/index.js"></script>
+    {% endblock scripts %}

@@ -17,12 +17,22 @@
 }
 
 .form legend{
-    margin-bottom: 40px;
+    margin-bottom: 30px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .form legend h2{
     font-size: 20px;
     margin-top: 20px;
+}
+
+.form legend span{
+    margin-top: 15px;
+    font-size: 14px;
+    color: var(--title-color);
 }
 
 .form .field{
