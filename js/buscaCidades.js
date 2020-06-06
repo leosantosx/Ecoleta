@@ -1,4 +1,4 @@
-//"use strict"
+"use strict"
 
 const selectEstados = $("select[name=uf]")
 const selectCidades = $("select[name=city]")

@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/modal.css">
     <link rel="stylesheet" href="./css/responsive.css">
 </head>
 <body>
@@ -27,11 +28,29 @@
             <main class="page-main">
                 <h1>Seu marketplace de coleta de resíduos</h1>
                 <p>Ajudamos pessoas a encontrarem pontos de coleta de forma eficiente</p>
-                <a><span></span><strong>Pesquisar pontos de coleta</strong></a>
+                <a class="search-point"><span></span><strong>Pesquisar pontos de coleta</strong></a>
             </main>
         </div>
     </div>
 
+    <div id="modal" class="hide">
+        <div class="content">
+            <div class="header">
+                <h1>Pontos de coleta</h1>
+                <a href="#" class="close">Fechar</a>
+            </div>
+            <form action="" class="search-city">
+                <label for="search">Cidade</label>
+                <div class="search field">
+                    <input type="text" name="search" placeholder="Pesquise por cidade">
+                    <button>
+                        <img src="./icones/search.svg" alt="Buscar">
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
 
+    <script src="js/index.js"></script>
 </body>
 </html>
