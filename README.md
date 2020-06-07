@@ -20,6 +20,9 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 <h2>Página inicial</h2>
 <img src="https://user-images.githubusercontent.com/48372094/83902128-381f4c00-a732-11ea-81e8-199d1a2bd694.jpg" alt="Página inicial">
 
+<h2>Página para pesquisar por pontos de coleta</h2>
+<img src="https://user-images.githubusercontent.com/48372094/83960760-dd394200-a862-11ea-964c-91597d49102c.jpg" alt="Pesquisar pontos de coleta">
+
 <h2>Página para cadastrar um ponto de coleta</h2>
 <p align="center">
 <img width="500" height="800" src="https://user-images.githubusercontent.com/48372094/83902460-cbf11800-a732-11ea-8528-1372f0c9bf48.jpg" alt="Página para cadastrar um ponto de coleta">
