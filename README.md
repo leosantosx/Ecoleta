@@ -31,5 +31,5 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 
 ## 📝 Licença
 
-Este projeto está sob a licença MIT. Consulte [LICENÇA](https://github.com/HeitorAugustoLN/Ecoleta/blob/master/LICENSE) para obter detalhes.
+Este projeto está sob a licença MIT. Consulte [LICENÇA](https://github.com/leosantosx/Ecoleta/blob/master/LICENSE) para obter detalhes.
 
