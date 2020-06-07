@@ -13,7 +13,9 @@ function ItemsColeta(event) {
     let itemLi = event.target
     itemLi.classList.toggle("selected")
 
-    let itemId = parseInt(itemLi.dataset.id)
+    let itemId = itemLi.dataset.id
+    console.log(itemId)
+    
 
     const encontrouItens = idColeta.includes(itemId)
     if (encontrouItens) {

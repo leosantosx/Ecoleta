@@ -27,9 +27,12 @@
 
         </div>
 
-        {% include "partials/modal.html" %}
     {% endblock content %}
 
+    {% block modal %}
+        {% include "partials/modal.html" %}
+    {% endblock modal %}
+        
     {% block scripts %}
         <script src="js/index.js"></script>
     {% endblock scripts %}

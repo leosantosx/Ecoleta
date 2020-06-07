@@ -76,3 +76,8 @@
 #modal form button:hover{
     background-color: #2fb85e;
 }
+
+.modal-point-title{
+    color: white;
+    margin-top: 20px;
+}
