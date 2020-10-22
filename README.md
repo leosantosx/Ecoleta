@@ -18,7 +18,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 - [Sqlite](https://www.sqlite.org/index.html)
  
 <h2>Página inicial</h2>
-<img src="https://user-images.githubusercontent.com/48372094/83902128-381f4c00-a732-11ea-81e8-199d1a2bd694.jpg" alt="Página inicial">
+<img src="https://user-images.githubusercontent.com/48372094/83902128-381f4c00-a732-11ea-81e8-199d1a2bd694.jpg" alt="Página iniciall">
 
 <h2>Página para pesquisar por pontos de coleta</h2>
 <img src="https://user-images.githubusercontent.com/48372094/83960760-dd394200-a862-11ea-964c-91597d49102c.jpg" alt="Pesquisar pontos de coleta">
